@@ -1,147 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Gregory Thom - website</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<meta name="author" content="http://webthemez.com" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
-<link href="css/jcarousel.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet" />
- 
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<html>
+  <head>
+    <title>Leaflet Example - asmaloney.com</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-</head>
-<body>
-<div id="wrapper">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li> 
-						<li><a href="courses.html">Publications</a></li>
-						<li><a href="research.html">Research</a></li>
-                        <li><a href="portfolio.html">CV</a></li>
-                        <li><a href="Field.html">Field & Collections</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-	</header>
-	<!-- end header -->
-	<section id="featured">
-	 
-	<!-- Slider -->
-        <div id="main-slider" class="flexslider">
-            <ul class="slides">
-              <li>
-                <img src="img/slides/1.jpg" alt="" />
-              </li>
-              <li>
-                <img src="img/slides/2.jpg" alt="" />
-              </li>
-              <li>
-                <img src="img/slides/3.jpg" alt="" />
-              </li>
-            </ul>
-        </div>
-	<!-- end slider -->
- 
-	</section>
-<section id="inner-headline">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2 class="pageTitle">About Me</h2>
-			</div>
-		</div>
-	</div>
-	</section>
-	<section id="content">
-	<div class="container">
-					
-					<div class="about">
-					
-						 <div class="row">
-							<div class="col-md-6">
-								<img src="img/section-image-1.jpg" alt="">
-								<div class="space"></div>
-							</div>
-							<div  style="text-align: justify" class="col-md-6"><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span> <span style="font-size:6mm" > Welcome! I am currently a postdoctoral fellow at the American Museum of Natural History, and since my Ph.D. at the University of São Paulo, I have built an integrative research program that bridges ecology, evolution, and organismal biology by using genomics and a computationally intense framework to explore the processes driving species diversification in the most biodiverse regions on the planet. My research has been focused on multiple aspects of evolutionary biology, especially on the interface between micro and macroevolutionary processes, elucidating fundamental principles that rule the diversity of life on earth and its interaction with the environment, over space and time. My studies aim on understanding patterns of tropical biodiversity, predicting future responses of organisms to climate change, tracking cryptic diversity, and develop new methodological approaches to analyze population genetics and genomic data.  </span></div>
-						</div>	
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM"
+      crossorigin="anonymous"
+    />
 
+   <script
+      src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"
+      integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
+  <body>
+    <h1>Leaflet Example</h1>
 
-	</section>
-	<section id="content">
-	
-	
-</div>
-</section>
-	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Contact:</h5>
-					<address>
-					<strong>The American Museum of Natural History</strong><br>
-					Central Park West at 79th Street<br>
-					 New York, NY 10024-5192</address>
-					<p>
-					<i class="icon-envelope-alt"></i> Email: <strong>biogrego@yahoo.com.br<strong>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; Above Site All right reserved. Template By </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
-</div>
-<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
-    ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="js/jquery.fancybox-media.js"></script> 
-<script src="js/portfolio/jquery.quicksand.js"></script>
-<script src="js/portfolio/setting.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/owl-carousel/owl.carousel.js"></script>
-</body>
+    <p>Here's an interactive map indicating the countries I've either lived in or travelled through for a month or more.
+
+    <div id="map" style="width: 800px; height: 440px; border: 1px solid #AAA;"></div>
+
+    <div>
+      <p>An example of how to use <a href="https://leafletjs.com/" target="_blank">Leaflet</a>.
+      <p>From the article <a href="https://asmaloney.com/2014/01/code/creating-an-interactive-map-with-leaflet-and-openstreetmap" target="_blank">Creating An Interactive Map With Leaflet and OpenStreetMap</a>
+      <p>Andy Maloney // <a href="https://asmaloney.com" target="_blank">asmaloney.com</a>
+      <br/>23 Jan 2014
+
+      <p>
+        <b>[06 May 2021]</b>        
+        <ul>
+          <li>Updated to Leaflet 1.7.1, and jQuery 3.6.0.</li>
+          <li>All files reformatted with <a href="https://prettier.io/">prettier</a>.</li>
+          <li>Use <i>https</i> for URLs.</li>
+        </ul>
+      </p>
+      <p><b>[08 Oct 2019]</b>
+        <ul>
+          <li>Updated to Leaflet 1.5.1 and jQuery 3.4.1.</li>
+          <li>Added <a href="https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity">Subresource Integrity</a> to CSS and CDN JavaScript.</li>
+          <li>Changed the marker file from .json to .js since it is actually a JavaScript file.</li>
+          <li>Added a new country to the list :-)</li>
+        </ul>
+      <p><b>[16 Jul 2016]</b> Switched to Leaflet 0.7.7.
+      <p><b>[12 Jul 2016]</b> MapQuest discontinued the tile set I was using, so I switched to OpenStreetMap’s tiles. Note that these are useful only for testing. They say on their site:
+        <blockquote>"Apart from very limited testing purposes, you should not use the tiles supplied by OpenStreetMap.org itself."</blockquote>
+      <p><b>[19 Apr 2014]</b> Added <i>http:</i> to the scheme-less ajax.googleapis.com URI so double-clicking this file to open in the browser works.
+    </div>
+    <script type='text/javascript' src='maps/markers.js'></script>
+    <script type='text/javascript' src='maps/leaf-demo.js'></script>
+  </body>
 </html>
