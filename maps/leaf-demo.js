@@ -27,10 +27,14 @@ var myIcon = L.icon({
 for (var i = 0; i < markers.length; ++i) {
   L.marker([markers[i].lat, markers[i].lng], { icon: myIcon })
     .bindPopup(
-           "<dl><dt>Country</dt>"
+          '<img src="img2/g69.png" height="50px" width="150px"/>'
+           + "<dl><dt>Country</dt>"
            + "<dd>" + markers[i].country + "</dd>"
+           + '<img src="' + markers[i].img + '" height="18px" width="25px"/>'
            + "<dt>CANoN Collaborator</dt>"
            + "<dd>" + markers[i].name + "</dd>"
+           + "<dt>Area of expertise</dt>"
+           + "<dd>" + markers[i].field + "</dd>"
            + "<dt>Institution</dt>"
            + "<dd>" + markers[i].institution + "</dd>"
            + "<dt>Website</dt>"
